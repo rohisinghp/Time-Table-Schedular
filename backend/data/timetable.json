@@ -1,0 +1,358 @@
+{
+  "TMC301": {
+    "subjectName": "Design and Analysis of Algorithms",
+    "faculty": "Dr. S. C. Dimri",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Tuesday", "time": "8:55–9:50" },
+        { "day": "Wednesday", "time": "8:55–9:50" }
+      ],
+      "B": [
+        { "day": "Tuesday", "time": "11:05–12:00" },
+        { "day": "Friday", "time": "3:10–4:05" },
+        { "day": "Friday", "time": "4:05–5:00" }
+      ],
+      "C": [
+        { "day": "Tuesday", "time": "1:10–2:05" },
+        { "day": "Friday", "time": "3:10–4:05" },
+        { "day": "Friday", "time": "4:05–5:00" }
+      ],
+      "D": [
+        { "day": "Tuesday", "time": "11:05–12:00" },
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ]
+    }
+  },
+
+  "TMC302": {
+    "subjectName": "Mobile Application Development",
+    "faculty": "Mr. Mukesh Singh",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Monday", "time": "1:10–2:05" },
+        { "day": "Tuesday", "time": "12:00–12:55" },
+        { "day": "Thursday", "time": "11:05–12:00" }
+      ],
+      "B": [
+        { "day": "Tuesday", "time": "2:05–3:00" },
+        { "day": "Wednesday", "time": "2:05–3:00" },
+        { "day": "Thursday", "time": "2:05–3:00" }
+      ],
+      "C": [
+        { "day": "Wednesday", "time": "10:10–11:05" },
+        { "day": "Thursday", "time": "1:10–2:05" },
+        { "day": "Friday", "time": "5:00–5:55" }
+      ],
+      "D": [
+        { "day": "Tuesday", "time": "12:00–12:55" },
+        { "day": "Thursday", "time": "1:10–2:05" }
+      ]
+    }
+  },
+
+  "TMC303": {
+    "subjectName": "Software Engineering",
+    "faculty": "Dr. A. S. Shukla",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Wednesday", "time": "12:00–12:55" },
+        { "day": "Thursday", "time": "10:10–11:05" }
+      ],
+      "B": [
+        { "day": "Tuesday", "time": "8:55–9:50" },
+        { "day": "Wednesday", "time": "8:55–9:50" }
+      ],
+      "C": [
+        { "day": "Tuesday", "time": "3:10–4:05" },
+        { "day": "Friday", "time": "10:10–11:05" },
+        { "day": "Friday", "time": "11:05–12:00" }
+      ],
+      "D": [
+        { "day": "Wednesday", "time": "11:05–12:00" },
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ]
+    }
+  },
+
+  "TMC304": {
+    "subjectName": "Career Skills – III",
+    "faculty": "Mr. Ankit Tripathi",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Monday", "time": "12:00–12:55" },
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ],
+      "B": [
+        { "day": "Friday", "time": "10:10–11:05" },
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ],
+      "C": [
+        { "day": "Friday", "time": "8:00–8:55" },
+        { "day": "Friday", "time": "11:05–12:00" }
+      ],
+      "D": [
+        { "day": "Monday", "time": "12:00–12:55" },
+        { "day": "Thursday", "time": "4:05–5:00" }
+      ]
+    }
+  },
+
+  "TMC311": {
+    "subjectName": "Machine Learning–2",
+    "faculty": "Dr. S. C. Dimri",
+    "course": { "MCA": ["A", "B", "C", "D"], "MScIT": ["MSc IT"] },
+    "timings": {
+      "A": [
+        { "day": "Thursday", "time": "8:55–9:50" }
+      ],
+      "B": [
+        { "day": "Thursday", "time": "8:55–9:50" },
+        { "day": "Saturday", "time": "8:00–8:55" }
+      ],
+      "C": [
+        { "day": "Thursday", "time": "8:55–9:50" },
+        { "day": "Saturday", "time": "8:00–8:55" }
+      ],
+      "D": [
+        { "day": "Thursday", "time": "8:55–9:50" },
+        { "day": "Saturday", "time": "8:00–8:55" }
+      ],
+      "MScIT": [
+        { "day": "Saturday", "time": "8:00–8:55" },
+        { "day": "Saturday", "time": "8:55–9:50" }
+      ]
+    }
+  },
+
+  "TMC312": {
+    "subjectName": "DevOps on Cloud",
+    "faculty": "Mr. Yogesh Lohmi",
+    "course": { "MCA": ["A", "B", "C", "D"], "MScIT": ["MSc IT"] },
+    "timings": {
+      "A": [
+        { "day": "Tuesday", "time": "10:10–11:05" },
+        { "day": "Wednesday", "time": "10:10–11:05" },
+        { "day": "Thursday", "time": "10:10–11:05" }
+      ],
+      "B": [
+        { "day": "Tuesday", "time": "10:10–11:05" },
+        { "day": "Wednesday", "time": "10:10–11:05" },
+        { "day": "Thursday", "time": "10:10–11:05" }
+      ],
+      "C": [
+        { "day": "Tuesday", "time": "10:10–11:05" },
+        { "day": "Wednesday", "time": "10:10–11:05" },
+        { "day": "Thursday", "time": "10:10–11:05" }
+      ],
+      "D": [
+        { "day": "Tuesday", "time": "10:10–11:05" },
+        { "day": "Wednesday", "time": "10:10–11:05" },
+        { "day": "Thursday", "time": "10:10–11:05" }
+      ],
+      "MScIT": [
+        { "day": "Tuesday", "time": "10:10–11:05" }
+      ]
+    }
+  },
+
+  "DAA_LAB": {
+    "subjectName": "DAA Lab",
+    "faculty": "Mr. Vikash Kumar, Mr. Raunak Kumar",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Saturday", "time": "2:05–3:00" }
+      ],
+      "B": [
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ],
+      "C": [
+        { "day": "Wednesday", "time": "2:05–3:00" }
+      ],
+      "D": [
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ]
+    }
+  },
+
+  "SE_LAB": {
+    "subjectName": "Software Engineering Lab",
+    "faculty": "Ms. Aakriti Singh",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Monday", "time": "2:05–3:00" }
+      ],
+      "B": [
+        { "day": "Thursday", "time": "2:05–3:00" }
+      ],
+      "C": [
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ],
+      "D": [
+        { "day": "Tuesday", "time": "2:05–3:00" }
+      ]
+    }
+  },
+
+  "ANDROID_LAB": {
+    "subjectName": "Android Lab",
+    "faculty": "Mr. Mukesh Singh / Mr. Viplaw Sinha",
+    "course": { "MCA": ["A", "B", "C", "D"], "MScIT": ["MSc IT"] },
+    "timings": {
+      "A": [
+        { "day": "Wednesday", "time": "4:05–5:00" }
+      ],
+      "B": [
+        { "day": "Tuesday", "time": "4:05–5:00" }
+      ],
+      "C": [
+        { "day": "Thursday", "time": "4:05–5:00" }
+      ],
+      "D": [
+        { "day": "Monday", "time": "4:05–5:00" }
+      ],
+      "MScIT": [
+        { "day": "Wednesday", "time": "4:05–5:00" }
+      ]
+    }
+  },
+
+  "CG_LAB": {
+    "subjectName": "Computer Graphics Lab",
+    "faculty": "Dr. Bhawnesh Kumar",
+    "course": { "MScIT": ["MSc IT"] },
+    "timings": {
+      "MScIT": [
+        { "day": "Tuesday", "time": "4:05–5:00" }
+      ]
+    }
+  },
+
+  "PMC301": {
+    "subjectName": "Design and Analysis of Algorithms Laboratory (PMC301)",
+    "faculty": "Mr. Vikash Kumar / Mr. Raunak Kumar",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ],
+      "B": [
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ],
+      "C": [
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ],
+      "D": [
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ]
+    }
+  },
+
+  "PMC302": {
+    "subjectName": "Mobile Application Development Laboratory (PMC302)",
+    "faculty": "Mr. Mukesh Singh / Mr. Viplaw Sinha",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Tuesday", "time": "3:10–4:05" }
+      ],
+      "B": [
+        { "day": "Tuesday", "time": "3:10–4:05" }
+      ],
+      "C": [
+        { "day": "Wednesday", "time": "11:05–12:00" }
+      ],
+      "D": [
+        { "day": "Thursday", "time": "3:10–4:05" }
+      ]
+    }
+  },
+
+  "PMC303": {
+    "subjectName": "Software Engineering Laboratory (PMC303)",
+    "faculty": "Ms. Aakriti Singh",
+    "course": { "MCA": ["A", "B", "C", "D"] },
+    "timings": {
+      "A": [
+        { "day": "Monday", "time": "3:10–4:05" }
+      ],
+      "B": [
+        { "day": "Thursday", "time": "10:10–11:05" }
+      ],
+      "C": [
+        { "day": "Saturday", "time": "8:55–9:50" }
+      ],
+      "D": [
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ]
+    }
+  },
+
+  "MIP301": {
+    "subjectName": "Mini Project / Research Seminar",
+    "faculty": "",
+    "course": { "MScIT": ["MSc IT"], "MCA": ["A","B","C","D"] },
+    "timings": {
+      "MScIT": [
+        { "day": "Saturday", "time": "11:05–12:00" }
+      ],
+      "A": [ ],
+      "B": [ ],
+      "C": [ ],
+      "D": [ ]
+    }
+  },
+
+  "TMI301": {
+    "subjectName": "Design and Analysis of Algorithms (MSc IT)",
+    "faculty": "with MCA III A",
+    "course": { "MScIT": ["MSc IT"] },
+    "timings": {
+      "MScIT": [
+        { "day": "Tuesday", "time": "11:05–12:00" },
+        { "day": "Wednesday", "time": "11:05–12:00" }
+      ]
+    }
+  },
+
+  "TMI302": {
+    "subjectName": "Mobile Application Development (MSc IT)",
+    "faculty": "with MCA III A",
+    "course": { "MScIT": ["MSc IT"] },
+    "timings": {
+      "MScIT": [
+        { "day": "Monday", "time": "1:10–2:05" },
+        { "day": "Tuesday", "time": "1:10–2:05" }
+      ]
+    }
+  },
+
+  "TMI303": {
+    "subjectName": "Software Engineering (MSc IT)",
+    "faculty": "Dr. A. S. Shukla",
+    "course": { "MScIT": ["MSc IT"] },
+    "timings": {
+      "MScIT": [
+        { "day": "Thursday", "time": "11:05–12:00" },
+        { "day": "Saturday", "time": "10:10–11:05" }
+      ]
+    }
+  },
+
+  "TMI304": {
+    "subjectName": "Computer Graphics (MSc IT)",
+    "faculty": "Dr. Bhawnesh Kumar",
+    "course": { "MScIT": ["MSc IT"] },
+    "timings": {
+      "MScIT": [
+        { "day": "Monday", "time": "3:10–4:05" },
+        { "day": "Tuesday", "time": "3:10–4:05" }
+      ]
+    }
+  }
+}
