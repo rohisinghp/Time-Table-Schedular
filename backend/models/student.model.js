@@ -22,7 +22,12 @@ const studentSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true
-  }
+  },
+  role: {
+  type: String,
+  enum: ["student"],
+  default: "student"
+}
 }, { timestamps: true });
 
 const Student = mongoose.model("Student", studentSchema);

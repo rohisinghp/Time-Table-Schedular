@@ -17,8 +17,22 @@ const sendToken = (user, res) => {
     maxAge: 24 * 60 * 60 * 1000
   });
 
-  return res.json({ success: true, token });
+  const userData = {
+    id: user._id,
+    role: user.role,
+    studentId: user.studentId || null,
+    adminId: user.adminId || null,
+    emailId: user.emailId,
+    course: user.course || null,
+    section: user.section || null
+  };
+
+  return res.json({
+    success: true,
+    user: userData
+  });
 };
+
 
 // ---------------- STUDENT REGISTER ----------------
 export const registerStudent = async (req, res) => {
@@ -37,6 +51,7 @@ export const registerStudent = async (req, res) => {
     });
 
     sendToken(student, res);
+    
 
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -98,4 +113,11 @@ export const loginTeacher = async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
+};
+
+export const checkAuth = (req, res) => {
+  if (req.cookies.token) {
+    return res.status(200).json({ message: "Authorized" });
+  }
+  return res.status(401).json({ message: "Unauthorized" });
 };

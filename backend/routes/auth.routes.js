@@ -3,7 +3,8 @@ import {
   registerStudent,
   loginStudent,
   registerTeacher,
-  loginTeacher
+  loginTeacher,
+  checkAuth
 } from "../controllers/auth.controllers.js";
 import { logoutUser } from "../controllers/logout.js";
 
@@ -19,6 +20,9 @@ router.post("/teacher/login", loginTeacher);
 
 
 router.post("/logout", logoutUser);
+
+router.get("/check", checkAuth);
+
 
 
 export default router;

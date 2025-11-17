@@ -14,7 +14,13 @@ const teacherSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true
-  }
+  },
+  role: {
+  type: String,
+  enum: ["teacher"],
+  default: "teacher"
+}
+
 }, { timestamps: true });
 
 const Teacher = mongoose.model("Teacher", teacherSchema);

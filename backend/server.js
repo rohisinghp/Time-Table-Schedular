@@ -11,7 +11,15 @@ import auth from './routes/auth.routes.js'
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+
+import cookieParser from "cookie-parser";
+app.use(cookieParser());
+
+
+app.use(cors({
+  origin: "http://localhost:5173",   // frontend URL
+  credentials: true,                 // allow cookies
+}));
 
 dotenv.config({
     path: "./.env"
